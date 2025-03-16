@@ -3,4 +3,7 @@
         font_size: 50
         top: root.top - 50
         center_x: root.width / 2
-        text: "A random test label"
+        text: root.title_text
+    Button:
+        text: "Update the label"
+        on_press: root.update_label()
